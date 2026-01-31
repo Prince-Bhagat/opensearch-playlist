@@ -7,22 +7,22 @@ GET students/_search
 
 POST /students/_bulk
 { "index": { "_id": "1" } }
-{ "rollNumber": 1, "Name": "Prince", "percentage": 98.80 }
+{ "rollNumber": 1, "Name": "Prince", "percentage": 98.80, "result": "Pass" }
 { "index": { "_id": "2" } }
-{ "rollNumber": 2, "Name": "John", "percentage": 90.69 }
+{ "rollNumber": 2, "Name": "John", "percentage": 90.69, "result": "Pass" }
 { "index": { "_id": "3" } }
-{ "rollNumber": 3, "Name": "Doe", "percentage": 80.9 }
+{ "rollNumber": 3, "Name": "Doe", "percentage": 80.9, "result": "Pass" }
 { "index": { "_id": "4" } }
-{ "rollNumber": 4, "Name": "Lisa", "percentage": 70.00 }
+{ "rollNumber": 4, "Name": "Lisa", "percentage": 70.00, "result": "Pass" }
 { "index": { "_id": "5" } }
-{ "rollNumber": 5, "Name": "Monika", "percentage": 70.00 }
+{ "rollNumber": 5, "Name": "Monika", "percentage": 70.00, "result": "Pass" }
 { "index": { "_id": "6" } }
-{ "rollNumber": 6, "Name": "Raechal", "percentage": 55.70 }
+{ "rollNumber": 6, "Name": "Raechal", "percentage": 30.00, "result": "Fail" }
 { "index": { "_id": "7" } }
-{ "rollNumber": 7, "Name": "Joe", "percentage": 32.94 }
+{ "rollNumber": 7, "Name": "Joe", "percentage": 32.94, "result": "Fail" }
 { "index": { "_id": "8" } }
-{ "rollNumber": 8, "Name": "Ross", "percentage": 96.67 }
+{ "rollNumber": 8, "Name": "Ross", "percentage": 96.67, "result": "Pass" }
 { "index": { "_id": "9" } }
-{ "rollNumber": 9, "Name": "Barney", "percentage": 86.40 }
+{ "rollNumber": 9, "Name": "Barney", "percentage": 86.40, "result": "Pass" }
 { "index": { "_id": "10" } }
-{ "rollNumber": 10, "Name": "Mike", "percentage": 45.84 }
+{ "rollNumber": 10, "Name": "Mike", "percentage": 31.00, "result": "Fail" }
