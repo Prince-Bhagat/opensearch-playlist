@@ -1,3 +1,10 @@
+GET students/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
 POST /students/_bulk
 { "index": { "_id": "1" } }
 { "rollNumber": 1, "Name": "Prince", "percentage": 98.80 }
