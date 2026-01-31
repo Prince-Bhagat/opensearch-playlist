@@ -1,0 +1,21 @@
+POST /students/_bulk
+{ "index": { "_id": "1" } }
+{ "rollNumber": 1, "Name": "Prince", "percentage": 98.80 }
+{ "index": { "_id": "2" } }
+{ "rollNumber": 2, "Name": "John", "percentage": 90.69 }
+{ "index": { "_id": "3" } }
+{ "rollNumber": 3, "Name": "Doe", "percentage": 80.9 }
+{ "index": { "_id": "4" } }
+{ "rollNumber": 4, "Name": "Lisa", "percentage": 70.00 }
+{ "index": { "_id": "5" } }
+{ "rollNumber": 5, "Name": "Monika", "percentage": 70.00 }
+{ "index": { "_id": "6" } }
+{ "rollNumber": 6, "Name": "Raechal", "percentage": 55.70 }
+{ "index": { "_id": "7" } }
+{ "rollNumber": 7, "Name": "Joe", "percentage": 32.94 }
+{ "index": { "_id": "8" } }
+{ "rollNumber": 8, "Name": "Ross", "percentage": 96.67 }
+{ "index": { "_id": "9" } }
+{ "rollNumber": 9, "Name": "Barney", "percentage": 86.40 }
+{ "index": { "_id": "10" } }
+{ "rollNumber": 10, "Name": "Mike", "percentage": 45.84 }
